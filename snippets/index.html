@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <style>
+        img.no-fill {
+            height: auto;
+            width: auto;
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        img.fill {
+            height: auto;
+            width: auto;
+            min-width: 250px;
+            min-height: 250px;
+        }
+
+        div {
+            margin: 1em;
+            border: thin solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Not filled and centerd image:</p>
+    <div style="height: 250px; width: 250px;">
+        <img class="no-fill"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aJ7SP_AiH6rf0j42b-9uMgAAAA%26pid%3DApi&f=1"
+            alt="square">
+    </div>
+
+    <div style="height: 250px; width: 250px;">
+        <img class="no-fill"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZFOCtCtOHBdLKoq8U-ViwQHaD4%26pid%3DApi&f=1"
+            alt="wide">
+    </div>
+
+    <div style="height: 250px; width: 250px;">
+        <img class="no-fill"
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimage.shutterstock.com%2Fdisplay_pic_with_logo%2F57907%2F57907%2C1220605719%2C2%2Fstock-photo-tall-straight-pine-tree-woods-in-summer-16973971.jpg&f=1&nofb=1"
+            alt="tall">
+    </div>
+
+    <p>Filled image:</p>
+
+    <div style="height: 250px; width: 250px;">
+        <img class="fill"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aJ7SP_AiH6rf0j42b-9uMgAAAA%26pid%3DApi&f=1"
+            alt="square">
+    </div>
+
+    <div style="height: 250px; width: 250px;">
+        <img class="fill"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZFOCtCtOHBdLKoq8U-ViwQHaD4%26pid%3DApi&f=1"
+            alt="wide">
+    </div>
+
+    <div style="height: 250px; width: 250px;">
+        <img class="fill"
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimage.shutterstock.com%2Fdisplay_pic_with_logo%2F57907%2F57907%2C1220605719%2C2%2Fstock-photo-tall-straight-pine-tree-woods-in-summer-16973971.jpg&f=1&nofb=1"
+            alt="tall">
+    </div>
+</body>
+
+</html>
