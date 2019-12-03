@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title></title>
+    <style>
+        div.row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        div.col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            padding: 0em;
+            border: none solid black;
+        }
+
+        .scrollable {
+            overflow: scroll;
+        }
+
+        .filled {
+            flex-grow: 1;
+        }
+
+        .justify-space-between {
+            justify-content: space-between;
+        }
+
+        .justify-space-around {
+            justify-content: space-around;
+        }
+
+        .screen-height {
+            height: 100%;
+        }
+
+        .centered {
+            margin: auto auto auto auto;
+        }
+
+        .text-width {
+            width: 50em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col screen-height">
+
+        <div class="row">
+            <a href="#">ES</a>
+        </div>
+
+        <div class="col filled">
+
+            <div class="row centered">
+
+                <div class="col text-width">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum velit. Nullam
+                    ligula quam,
+                    sollicitudin sed consectetur a, imperdiet in enim. Cras ultricies, sapien quis suscipit rhoncus,
+                    odio
+                    sem
+                    placerat velit, in commodo enim mauris ac ligula. Morbi imperdiet volutpat purus tincidunt
+                    rutrum. In in
+                    lacinia
+                    tellus. Proin at est sed nisl vestibulum lobortis id in purus. Aliquam sodales ipsum sit amet
+                    odio
+                    facilisis, id
+                    vestibulum justo semper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
+                    nibh
+                    tellus,
+                    sodales eu sagittis at, sollicitudin in est. Donec nec dolor in purus laoreet consectetur ut id
+                    nibh.
+                    Donec
+                    lobortis varius ullamcorper. Phasellus laoreet luctus dui sed eleifend.
+
+                    Etiam bibendum consectetur bibendum. Donec erat ante, suscipit quis turpis ac, laoreet dignissim
+                    dui.
+                    Duis
+                    interdum ipsum massa, quis feugiat magna dapibus vel. Suspendisse eget porta neque. Quisque in
+                    turpis
+                    sit
+                    amet
+                    mi suscipit lacinia in vitae ante. Sed in quam felis. Phasellus ac lacus purus. Morbi turpis ex,
+                    ultricies
+                    faucibus venenatis ut, auctor nec turpis. Maecenas non ante quis sem sollicitudin volutpat vitae
+                    sed
+                    leo.
+                </div>
+
+                <div class="col">
+                    <span>Title</span>
+                    <span> Sign in using email: </span>
+                    <span> using your email</span>
+                    <input type="text" placeholder="Write your email" />
+                    <input type="button" value="Next" />
+                    <div class="row justify-space-between">
+                        <input type="checkbox">Stay signed in</input>
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <input type="button" value="Create new account"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
